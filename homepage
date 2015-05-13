@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="nav">
+    <div class="container">
+        <ul class="centre">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+ </div>
+    
+<div class="hero-image">
+    <img src="https://pbs.twimg.com/media/CD594ndWYAADYFE.jpg:large">
+</div>
+
+</div>
+
+<div class="about">
+	<h1>ABOUT</h1>
+	<p>This prodigious group of four people is developing into a team of functional coding humans at Founders & Coders London.</p>
+</div>
+
+<div class="team-photo">
+	<img src="https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/185/sofa.jpg">
+</div>
+
+<div class="team">
+	<h1>THE TEAM</h1>
+	<div class="ronan">
+		<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/c38.38.474.474/s160x160/65929_10200168034058858_1892277199_n.jpg?oh=ac3b4ecf2c6e1bcd55056997615a5030&oe=55DD028B&__gda__=1436874115_5304003d8eafd7f2e68b90e8d84affc3">
+		<h2>Ronan</h2>
+	</div>
+	<div class="michelle">
+		<img src="https://avatars2.githubusercontent.com/u/10683087?v=3&s=460">
+		<h2>Michelle</h2>
+	</div>
+	<div class="josh">
+		<img src="https://avatars1.githubusercontent.com/u/10258114?v=3&s=460">
+		<h2>Josh</h2>
+	</div>
+	<div class="nikki">
+		<img src="https://www.billboard.com/files/media/nicki-minaj-press-2014-650.jpg">
+		<h2>Nikki</h2>
+	</div>
+</div>
+
+<div class="blog">
+	<h1>THE BLOG</h1>
+	<div class="blog-one">
+		<img src="http://goo.gl/0sX3jq">
+		<h2>Title of Blog One</h2>
+	</div>
+	<div class="blog-two">
+		<img src="http://goo.gl/an2HXY">
+		<h2>Title of Blog Two</h2>
+	</div>
+	<div class="blog-three">
+		<img src="http://goo.gl/vw43v1">
+		<h2>Title of Blog Three</h2>
+	</div>
+</div>
+
+<div class="footer">
+	<p>Random footer information...</p>
+</div>
+
+</body>
+</html>
