@@ -12,17 +12,25 @@ html, body {
   border: none;
 }
 
+#team-photo {
+  background-image: url('https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/85/10353428_611626038934550_3427763539599571947_o.jpg');
+  height: 600px;
+  width: 100%;
+  border: none;
+}
+
 #heading {
-  font-family: "Courier New", Courier, monospace;
   position: absolute;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
   left: 350px;
   top: 100px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #about {
+  background-color: #3D5C5C;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
