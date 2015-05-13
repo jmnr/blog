@@ -1,19 +1,49 @@
 html, body {
-    border: 0;
-    padding: 0;
-    margin: 0;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #000A00;
 }
 
-* {
-  background-color: #002400;
-}
-
-#nav {
+#hero {
   background-image: url('http://pigpog.com/wp-content/uploads/2012/11/Coffee-Black-and-White.jpg');
-  /*background-position: 50% 50%;*/
   height: 600px;
   width: 100%;
   border: none;
-  /*background-repeat: no-repeat;
-  background-size: cover;*/
+}
+
+#heading {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  left: 350px;
+  top: 100px;
+}
+
+#about {
+  text-align: center;
+}
+
+#about h1, p, #profiles h1, #profiles h2 {
+  color: white;
+  text-align: center;
+}
+
+#about-para {
+  padding: 0px 100px 0px 100px;
+}
+
+#profiles {
+  background-color: #3D5C5C;
+  text-align: center;
+}
+
+#profiles h1 {
+  text-align: center;
+}
+
+.profile {
+  display: inline-block;
 }
