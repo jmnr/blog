@@ -24,11 +24,14 @@ html, body {
 
 #about {
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #about h1, p, #profiles h1, #profiles h2 {
   color: white;
   text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #about-para {
@@ -38,6 +41,8 @@ html, body {
 #profiles {
   background-color: #3D5C5C;
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #profiles h1 {
@@ -46,4 +51,14 @@ html, body {
 
 .profile {
   display: inline-block;
+}
+
+.social-icon {
+  height: 25px;
+  width: 25px;
+}
+
+#footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
