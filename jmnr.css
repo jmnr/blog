@@ -135,11 +135,35 @@ html, body {
   text-align: center;
 }
 
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none; /*gets rid of underline*/
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3D5C5C;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
 /* Media queries */
 
 @media (max-width: 700px) {
   #hero {
-    background-image: url('http://pigpog.com/wp-content/uploads/2012/11/Coffee-Black-and-White.jpg');
+    background-image: url('http://static1.squarespace.com/static/5358245de4b0b772765f62e9/t/53bccd88e4b0a20cfa5ccefc/1404882341462/INTRO_bigstock-Laptop-with-coffee-cup-instan-29388125+(1).jpg?format=2500w');
     background-size: cover;
     height: 300px;
     width: 100%;
