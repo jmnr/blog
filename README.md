@@ -3,16 +3,16 @@
 This readme is walkthough of what 4 people had to learn to be able to build a beautiful responsive blog in less thana week.
 
 ##What we used
-+ [Github](/before-arrival.md)
-+ [Pivotal tracker](/before-arrival.md)
-+ [Harp](/before-arrival.md)
-+ [Qunit](/before-arrival.md)
++ [Github](http://github.com/)
++ [Pivotal tracker](http://www.pivotaltracker.com)
++ [Harp](http://harpjs.com/)
++ [Qunit](http://qunitjs.com/)
 
 [Founders and Coders](/before-arrival.md) runs 16 week programme that takes people who are relatively new to programming and guides them towards becominng full-stack web-developmers.
 
 This repo contains what we produced at the end of our first week. The challenge for the week was to create and host a blog form scratch. On day one, we split up one of us focused on learning as much as they can about the following: 
 
-+ [UX](/before-arrival.md)
++ [UX](https://github.com/jackpandas/UXDesign)
 + [Front End Development](/before-arrival.md)
 + [Testing](/before-arrival.md)
 + [Hosting a blog with harp](/before-arrival.md)
@@ -38,3 +38,7 @@ In summary:
 + Progressed to front end work,
 + which led to thinking about the tests we wanted the blog to pass. 
 + Hosting the bloga nd then running the tests to make sure everything is ok. 
+
+If you are tackling somthing similar, feel free to get in touch. Contact details on teh blog. 
+
+Updates on next week's challenge will be psoted to teh blog.
