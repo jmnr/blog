@@ -87,11 +87,6 @@ html, body {
   padding-bottom: 60px;
 }
 
-.blog-article {
-    max-width: 425px;
-    text-align: center;
-}
-
 .profile {
   display: inline-block;
   padding-bottom: 30px;
@@ -104,6 +99,8 @@ html, body {
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
+  max-width: 400px;
+  text-align: center;
 }
 
 .social-icon {
