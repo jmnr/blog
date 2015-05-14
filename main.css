@@ -15,12 +15,9 @@ html, body {
   height: 600px;
   width: 100%;
   border: none;
-  /* fix background */
+  /* for the parallax background */
   background-attachment: fixed;
-
-  /* center it */
   background-position: center center;
-
 }
 
 #team-photo {
@@ -114,19 +111,6 @@ html, body {
   padding-bottom: 60px;
   background-color: #9CB071;
 }
-
-/**.stretch {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
-}
-
-#stretchspace {
-  text-align: justify;
-  padding-left: 10%;
-  padding-right: 10%
-}**/
 
 .social-icon-group {
   text-align: center;
