@@ -1,3 +1,7 @@
+/***{
+  border: 1px dashed black;
+}**/
+
 html, body {
   border: 0px;
   padding: 0px;
@@ -36,7 +40,7 @@ html, body {
   padding-bottom: 60px;
 }
 
-#about h1, p, #profiles h1, #profiles h2 {
+#about h1, p, #profiles h1, #profiles h2, #blog h1, #blog h3, #blog p {
   color: white;
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -57,8 +61,25 @@ html, body {
   text-align: center;
 }
 
+#blog {
+  background-color: grey;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .profile {
   display: inline-block;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blog-article {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .social-icon {
@@ -69,4 +90,22 @@ html, body {
 #footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #3D5C5C;
+}
+
+/**.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#stretchspace {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%
+}**/
+
+.social-icon-group {
+  text-align: center;
 }
