@@ -34,21 +34,25 @@ html, body {
 /* unvisited link */
 a:link {
     color: white;
+    text-decoration: none; /*gets rid of underline*/
 }
 
 /* visited link */
 a:visited {
     color: white;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: grey;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
     color: white;
+    text-decoration: none;
 }
 
 #post {
@@ -95,7 +99,10 @@ img {
 #footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: white;
+  background-color: #3D5C5C;
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
 }
+
+/* Media queries */
