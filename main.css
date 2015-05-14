@@ -10,7 +10,12 @@ html, body {
 }
 
 #hero {
+<<<<<<< HEAD
   background-image: url('http://pigpog.com/wp-content/uploads/2012/11/Coffee-Black-and-White.jpg');
+=======
+  background-image: url('https://dl.dropboxusercontent.com/u/297682547/hero-image.png');
+  background-size: cover;
+>>>>>>> 3c2ba9838efdf0ddf70291b7061c9c6b1234c950
   height: 600px;
   width: 100%;
   border: none;
