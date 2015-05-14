@@ -3,7 +3,7 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
     var target= iframe.contentDocument || iframe.contentWindow.document;
     var initial= target.getElementById('heading').innerHTML;
 
-    equal(initial, "4 Coders. 16 weeks. 1 blog.", 'it works!');
+    equal(initial, "16 weeks. 4 Coders. 1 blog.");
 
 })
 
@@ -50,13 +50,13 @@ test("check image shows up", function() {
 // 	equal(initial, "./main.css");
 // });
 
-// test("check that fonts we selected show up", function() {
-//     var iframe= document.getElementById('iframe');
-//     var target= iframe.contentDocument || iframe.contentWindow.document;
-//     var elem1 = target.getElementsByTagName("h1");
-//     var style = window.getComputedStyle(elem1, null);
-//     equal(style.fontFamily, 'Source Sans Pro')
-//   })
+test("check that fonts we selected show up", function() {
+    var iframe= document.getElementById('iframe');
+    var target= iframe.contentDocument || iframe.contentWindow.document;
+    var elem1 = target.getElementsByTagName("h1");
+    var style = window.getComputedStyle(elem1, null);
+    equal(style.fontFamily, 'Source Sans Pro')
+  })
 
 
 test("check that hero image shows up", function() {
