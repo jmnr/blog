@@ -1,4 +1,4 @@
-/*** {
+/***{
   border: 1px dashed black;
 }**/
 
@@ -10,34 +10,21 @@ html, body {
 }
 
 #hero {
-  background-image: url('http://static1.squarespace.com/static/5358245de4b0b772765f62e9/t/53bccd88e4b0a20cfa5ccefc/1404882341462/INTRO_bigstock-Laptop-with-coffee-cup-instan-29388125+(1).jpg?format=2500w');
-  background-size: cover;
+  background-image: url('http://pigpog.com/wp-content/uploads/2012/11/Coffee-Black-and-White.jpg');
   height: 600px;
   width: 100%;
   border: none;
-  /* fix background */
-  background-attachment: fixed;
-
-  /* center it */
-  background-position: center center;
-
 }
 
 #team-photo {
   background-image: url('https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/85/10353428_611626038934550_3427763539599571947_o.jpg');
-  background-size: cover;
   height: 600px;
   width: 100%;
   border: none;
-  background-attachment: fixed;
-
-  /* center it */
-  background-position: center center;
 }
 
 #heading {
   position: absolute;
-  text-align: center;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
@@ -47,10 +34,10 @@ html, body {
 }
 
 #about {
-  background-color: #9CB071;
+  background-color: #3D5C5C;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #about h1, p, #profiles h1, #profiles h2, #blog h1, #blog h3, #blog p {
@@ -60,11 +47,11 @@ html, body {
 }
 
 #about-para {
-  padding: 0px 75px 0px 75px;
+  padding: 0px 100px 0px 100px;
 }
 
 #profiles {
-  background-color: #9CB071;
+  background-color: #3D5C5C;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -74,20 +61,8 @@ html, body {
   text-align: center;
 }
 
-#general-photo {
-  background-image: url('http://blog.generalassemb.ly/blog/wp-content/uploads/2014/07/GA_51.jpg');
-  background-size: cover;
-  height: 600px;
-  width: 100%;
-  border: none;
-  background-attachment: fixed;
-
-  /* center it */
-  background-position: center center;
-}
-
 #blog {
-  background-color: #848482;
+  background-color: grey;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -115,7 +90,7 @@ html, body {
 #footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #9CB071;
+  background-color: #3D5C5C;
 }
 
 /**.stretch {
@@ -133,47 +108,4 @@ html, body {
 
 .social-icon-group {
   text-align: center;
-}
-
-/* unvisited link */
-a:link {
-    color: white;
-    text-decoration: none; /*gets rid of underline*/
-}
-
-/* visited link */
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: #9CB071;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: white;
-    text-decoration: none;
-}
-
-/* Media queries */
-
-@media (max-width: 700px) {
-  #hero {
-    background-image: url('http://static1.squarespace.com/static/5358245de4b0b772765f62e9/t/53bccd88e4b0a20cfa5ccefc/1404882341462/INTRO_bigstock-Laptop-with-coffee-cup-instan-29388125+(1).jpg?format=2500w');
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    border: none;
-  }
-  #team-photo {
-    background-image: url('https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/85/10353428_611626038934550_3427763539599571947_o.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    border: none;
-  }
 }
