@@ -4,9 +4,9 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
     // extract the contents (DOM) of the iframe and assign it to the variable target
     var target= iframe.contentDocument || iframe.contentWindow.document;
     // check that the contents of the #hello element is 'Hello World!''
-    var initial= target.getElementById('hello').innerHTML;
+    var initial= target.getElementById('heading').innerHTML;
 
-    equal(initial, 'Hello World!', 'it works!');
+    equal(initial, 'The JMNR Blog', 'it works!');
 
 })
 
@@ -52,8 +52,8 @@ test("css page loads up", function() {
     // extract the contents (DOM) of the iframe and assign it to the variable target
     var target= iframe.contentDocument || iframe.contentWindow.document;
     // check that the contents of the #hello element is 'Hello World!''
-    var initial= target.getElementById('style').getAttribute("href");
-	equal(initial, "test.css");
+    var initial= target.getElementsByTagName('head').getAttribute("href");
+	equal(initial, "./main.css");
 });
 
 // test("image shows up correctly in mobile view", function() {
