@@ -3,7 +3,7 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
     var target= iframe.contentDocument || iframe.contentWindow.document;
     var initial= target.getElementById('heading').innerHTML;
 
-    equal(initial, 'The JMNR Blog', 'it works!');
+    equal(initial, "4 Coders. 16 weeks. 1 blog.", 'it works!');
 
 })
 
@@ -30,14 +30,14 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
 
 
 
-// test("check image shows up", function() {
-//     var iframe= document.getElementById('iframe');
-//     var target= iframe.contentDocument || iframe.contentWindow.document;
-//     var initial= target.getElementById('giraffe').src;
+test("check image shows up", function() {
+    var iframe= document.getElementById('iframe');
+    var target= iframe.contentDocument || iframe.contentWindow.document;
+    var initial= target.getElementById('socials').src;
 
-//     equal(initial, 'http://metalinjection.junipconcepts.netdna-cdn.com/wp-content/uploads/2014/08/Giraffe-Tongue-Orchestra.jpg?6b2bdb', 'it works!');
+    equal(initial, 'http://www.iconsdb.com/icons/preview/white/github-6-xxl.png', 'it works!')
 
-// })
+})
 
 // test("css page loads up", function() {
 //     // assign the iframe object to a variable called iframe
@@ -50,14 +50,22 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
 // 	equal(initial, "./main.css");
 // });
 
-test("check that page styling is correct", function() {
+// test("check that fonts we selected show up", function() {
+//     var iframe= document.getElementById('iframe');
+//     var target= iframe.contentDocument || iframe.contentWindow.document;
+//     var elem1 = target.getElementsByTagName("h1");
+//     var style = window.getComputedStyle(elem1, null);
+//     equal(style.fontFamily, 'Source Sans Pro')
+//   })
+
+
+test("check that hero image shows up", function() {
     var iframe= document.getElementById('iframe');
     var target= iframe.contentDocument || iframe.contentWindow.document;
-    var elem1 = document.getElementById("footer");
-    var style = window.getComputedStyle(elem1, null).display;
-    equal(style, "block");
-});
-
+    var elem1 = target.getElementById("hero");
+    var style = window.getComputedStyle(elem1, null);
+    equal(style.backgroundImage, "url(https://dl.dropboxusercontent.com/u/297682547/hero-image.png)")
+  })
 
 
 
