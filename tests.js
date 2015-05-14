@@ -3,34 +3,39 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
     var target= iframe.contentDocument || iframe.contentWindow.document;
     var initial= target.getElementById('heading').innerHTML;
 
-    equal(initial, "16 weeks. 4 Coders. 1 blog.");
+    equal(initial, "16 WEEKS. 4 CODERS. ONE BLOG.");
 
 })
 
-//     setTimeout(function() { // this is only here so you can see the page change!
-//   test("click on a link in the iframe to change page", function(assert){
-//     var done = assert.async();  // done is actually a function that we will call later to confirm the test has finished
-//     var iframe = document.getElementById('iframe');
-//     var target = iframe.contentDocument || iframe.contentWindow.document;
-//     target.getElementById('clickme').click(); // invoking a mock click event in the browser
+setTimeout(function() { // this is only here so you can see the page change!
+test("click on a link in the iframe to change page", function(assert){
+    var done = assert.async();  // done is actually a function that we will call later to confirm the test has finished
+    var iframe = document.getElementById('iframe');
+    var target = iframe.contentDocument || iframe.contentWindow.document;
+    target.getElementById('clickme').click(); // invoking a mock click event in the browser
 
-//     // wait for the next page to load
-//     setTimeout(function() {
-//       var iframe = document.getElementById('iframe');
-//       var target = iframe.contentDocument || iframe.contentWindow.document;
-//       var hello = target.getElementById('hello').innerHTML;
-//       // console.log('>>> '+hello)
-//       equal(hello, 'Hello FAC5!', 'as expected'); 
-//       done();
-//       $('#iframe').attr('src','page1.html');
-//     }, 200); // wait for the page to load before running the test
-//   });
-// }, 2000); // wait two seconds before running the second test!
-
+    // wait for the next page to load
+    setTimeout(function() {
+      var iframe = document.getElementById('iframe');
+      var target = iframe.contentDocument || iframe.contentWindow.document;
+      var hello = target.getElementById('title').innerHTML;
+      equal(hello,'Title of Blog Post'); 
+      done();
+      $('#iframe').attr('src', 'http://wallcrawler.github.io/jmnr-blog/');
+    }, 200); 
+  });
+}, 2000); 
 
 
+test("check that hero image shows up", function() {
+    var iframe= document.getElementById('iframe');
+    var target= iframe.contentDocument || iframe.contentWindow.document;
+    var elem1 = target.getElementById("hero");
+    var style = window.getComputedStyle(elem1, null);
+    equal(style.backgroundImage, "url(https://dl.dropboxusercontent.com/u/297682547/hero-image.png)")
+  })
 
-test("check image shows up", function() {
+test("check that an image shows up", function() {
     var iframe= document.getElementById('iframe');
     var target= iframe.contentDocument || iframe.contentWindow.document;
     var initial= target.getElementById('socials').src;
@@ -50,22 +55,15 @@ test("check image shows up", function() {
 // 	equal(initial, "./main.css");
 // });
 
-test("check that fonts we selected show up", function() {
-    var iframe= document.getElementById('iframe');
-    var target= iframe.contentDocument || iframe.contentWindow.document;
-    var elem1 = target.getElementsByTagName("h1");
-    var style = window.getComputedStyle(elem1, null);
-    equal(style.fontFamily, 'Source Sans Pro')
-  })
+// test("check that fonts we selected show up", function() {
+//     var iframe= document.getElementById('iframe');
+//     var target= iframe.contentDocument || iframe.contentWindow.document;
+//     var elem1 = target.getElementsByTagName("h1");
+//     var style = window.getComputedStyle(elem1, null);
+//     equal(style.getPropertyValue('font-family'), 'Source Sans Pro')
+//   })
 
 
-test("check that hero image shows up", function() {
-    var iframe= document.getElementById('iframe');
-    var target= iframe.contentDocument || iframe.contentWindow.document;
-    var elem1 = target.getElementById("hero");
-    var style = window.getComputedStyle(elem1, null);
-    equal(style.backgroundImage, "url(https://dl.dropboxusercontent.com/u/297682547/hero-image.png)")
-  })
 
 
 
