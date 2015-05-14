@@ -1,6 +1,6 @@
-/***{
+*{
   border: 1px dashed black;
-}**/
+}
 
 html, body {
   border: 0px;
@@ -37,12 +37,14 @@ html, body {
 
 #heading {
   position: absolute;
-  color: #fff;
+  text-align: center;
+  color: #FEFCFF;
   font-size: 40px;
   font-weight: bold;
-  left: 350px;
-  top: 100px;
   font-family: 'Source Sans Pro', sans-serif;
+  left: 0;
+  bottom: 450px;
+  width: 100%;
 }
 
 #about {
@@ -53,7 +55,7 @@ html, body {
 }
 
 #about h1, p, #profiles h1, #profiles h2, #blog h1, #blog h3, #blog p {
-  color: white;
+  color: #FEFCFF;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -73,11 +75,21 @@ html, body {
   text-align: center;
 }
 
+#profiles p {
+  max-width: 240px;
+  text-align: center;
+}
+
 #blog {
   background-color: grey;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.blog-article {
+    max-width: 425px;
+    text-align: center;
 }
 
 .profile {
@@ -97,6 +109,7 @@ html, body {
 .social-icon {
   height: 25px;
   width: 25px;
+
 }
 
 #footer {
@@ -124,13 +137,13 @@ html, body {
 
 /* unvisited link */
 a:link {
-    color: white;
+    color: #FEFCFF;
     text-decoration: none; /*gets rid of underline*/
 }
 
 /* visited link */
 a:visited {
-    color: white;
+    color: #FEFCFF;
     text-decoration: none;
 }
 
@@ -142,13 +155,14 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: white;
+    color: #FEFCFF;
     text-decoration: none;
 }
 
 /* Media queries */
 
 @media (max-width: 700px) {
+
   #hero {
     background-image: url('font-family: 'Source Sans Pro', sans-serif');
     background-size: cover;
@@ -156,11 +170,16 @@ a:active {
     width: 100%;
     border: none;
   }
+
   #team-photo {
     background-image: url('https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/85/10353428_611626038934550_3427763539599571947_o.jpg');
     background-size: cover;
     height: 300px;
     width: 100%;
     border: none;
+  }
+
+  #about-para {
+    padding: 0px 50px 0px 50px;
   }
 }
