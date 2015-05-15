@@ -1,4 +1,4 @@
-test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
+test("check that teh title shows up", function() {
     var iframe= document.getElementById('iframe');
     var target= iframe.contentDocument || iframe.contentWindow.document;
     var initial= target.getElementById('heading').innerHTML;
@@ -8,7 +8,7 @@ test("check h1#hello (inside iFrame) is 'Hello World!'", function() {
 })
 
 setTimeout(function() { // this is only here so you can see the page change!
-test("click on a link in the iframe to change page", function(assert){
+test("check that a link works and teh correct page loads up", function(assert){
     var done = assert.async();  // done is actually a function that we will call later to confirm the test has finished
     var iframe = document.getElementById('iframe');
     var target = iframe.contentDocument || iframe.contentWindow.document;
@@ -18,8 +18,8 @@ test("click on a link in the iframe to change page", function(assert){
     setTimeout(function() {
       var iframe = document.getElementById('iframe');
       var target = iframe.contentDocument || iframe.contentWindow.document;
-      var hello = target.getElementById('title').innerHTML;
-      equal(hello,'Title of Blog Post'); 
+      var hello = target.getElementById('joshtest').innerHTML;
+      equal(hello,'HOME'); 
       done();
       $('#iframe').attr('src', 'http://wallcrawler.github.io/jmnr-blog/');
     }, 200); 
@@ -50,7 +50,6 @@ test("check that an image shows up", function() {
 //     // extract the contents (DOM) of the iframe and assign it to the variable target
 //     var target= iframe.contentDocument || iframe.contentWindow.document;
 //     // check that the contents of the #hello element is 'Hello World!''
-    
 //     var initial= target.getElementsByTagName('head').getAttribute("href");
 // 	equal(initial, "./main.css");
 // });
