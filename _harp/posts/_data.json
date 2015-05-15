@@ -14,5 +14,10 @@
   "post4": {
     "title": "Ireland",
     "author": "Ronan"
+  },
+
+  "test": {
+    "layout": "_layoutblog.ejs",
+    "title": "test"
   }
 }
