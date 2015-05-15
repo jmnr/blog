@@ -209,6 +209,13 @@ a:active {
     text-decoration: none;
 }
 
+#clickme {
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
 /* Media queries */
 
 @media (max-width: 700px) {
