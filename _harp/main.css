@@ -24,11 +24,10 @@ html, body {
 }
 
 .navbar li {
-<<<<<<< HEAD
+
    display: inline-block;
-=======
+
   display: inline-block;
->>>>>>> origin/gh-pAGES
   padding-right: 3%;
   padding-left: 3%;
 }
@@ -38,10 +37,6 @@ html, body {
     padding:10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/gh-pAGES
 #hero {
   background-image: url('https://dl.dropboxusercontent.com/u/297682547/hero-image.png');
   background-size: cover;
