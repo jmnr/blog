@@ -160,16 +160,16 @@ html, body {
     filter: alpha(opacity=30);
 }
 
-#clickme:hover {
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-}
-
 #clickme {
   color: black;
   font-weight: bold;
   font-size: 150%;
   text-transform: uppercase;
+}
+
+#clickme:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 
 .social-icon {
