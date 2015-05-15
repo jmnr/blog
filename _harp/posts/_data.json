@@ -18,5 +18,10 @@
     "layout": "_layoutblog.ejs",
     "title": "Arbitrary Cheerful Title",
     "author": "Ronan"
+  },
+  "new": {
+    "layout": "_layoutblog.ejs",
+    "title": "Hello Founders and Coders...",
+    "author": "Ronan"
   }
 }
