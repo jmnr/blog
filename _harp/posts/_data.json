@@ -1,21 +1,24 @@
 {
   "post1": {
+    "layout": "_layoutblog.ejs",
     "title": "India",
     "author": "Josh"
   },
   "post2": {
+    "layout": "_layoutblog.ejs",
     "title": "Australia",
     "author": "Michelle"
   },
   "post3": {
+    "layout": "_layoutblog.ejs",
     "title": "India",
     "author": "Nikki"
   },
   "post4": {
+    "layout": "_layoutblog.ejs",
     "title": "Ireland",
     "author": "Ronan"
   },
-
   "test": {
     "layout": "_layoutblog.ejs",
     "title": "test"

@@ -35,9 +35,11 @@
 
        <section>
 
-        <h1>This is a test post</h1><p>As with the layout file, adding an underscore to the beginning of a file’s name prevents it from generating its own page, which is great for snippets of code. This convention is true for folders, too: name a folder with an underscore at the beginning, and nothing inside will be served directly. Folders with a leading underscore are a great place to store partials. I created a new folder called shared for this purpose.</p>
-<p><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg" alt="alt text" title="Look, a sheep!"></p>
-<p>As with the layout file, adding an underscore to the beginning of a file’s name prevents it from generating its own page, which is great for snippets of code. This convention is true for folders, too: name a folder with an underscore at the beginning, and nothing inside will be served directly. Folders with a leading underscore are a great place to store partials. I created a new folder called shared for this purpose.</p>
+        <p>h1 The FAC5 posts of Josh, Michelle, Nikhi and Ronan.
+h3 I hope you enjoying reading this because it was hell to build. :)</p>
+<p>for post, slug in public.articles._data
+  h2: a(href=&quot;/roblog/posts/#{ slug }&quot;)= post.title
+  != partial(&quot;posts/&quot; + slug)</p>
 
        </section>
 

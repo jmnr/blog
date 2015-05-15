@@ -1,12 +1,40 @@
-/***{
+*{
   border: 1px dashed black;
-}**/
+}
 
 html, body {
   border: 0px;
   padding: 0px;
   margin: 0px;
   background-color: #000A00;
+}
+
+.navbar {
+    /*border:1px solid #ccc;*/
+    /*border-width:1px 0;*/
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #2A2B2F;
+    position:fixed;
+    height: 10%;
+    width: 100%;
+}
+
+.navbar li {
+
+   display: inline-block;
+
+  display: inline-block;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.navbar a{
+    display:inline-block;
+    padding:10px;
 }
 
 #hero {
@@ -23,12 +51,11 @@ html, body {
 #team-photo {
   background-image: url('https://dl.dropboxusercontent.com/u/297682547/code-wallpaper-2.jpg');
   background-size: cover;
-  height: 350px;
+  height: 250px;
   width: 100%;
   border: none;
+  /*parallax*/
   background-attachment: fixed;
-
-  /* center it */
   background-position: center center;
 }
 
@@ -38,9 +65,8 @@ html, body {
   height: 350px;
   width: 100%;
   border: none;
+  /*parallax*/
   background-attachment: fixed;
-
-  /* center it */
   background-position: center center;
 }
 
@@ -90,7 +116,7 @@ html, body {
 }
 
 #blog {
-  background-color: #9CB071;
+  background-color: #2A2B2F;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;

@@ -1,0 +1,6 @@
+{
+  "all": {
+    "layout": "_layoutblog.ejs",
+    "title": "All posts"
+  }
+}
