@@ -26,11 +26,6 @@
 
   <div class="post">
 
-  <!-- <h1>Title of Blog Post</h1>
-  <h3>Post by Michelle | Posted on 13 May 2015</h3> -->
-
-  <!-- <img src="https://pbs.twimg.com/media/CD594ndWYAADYFE.jpg:large"> -->
-
     <div class="post-text">
 
        <section>
@@ -38,7 +33,7 @@
         <%- yield %>
 
        <% for(var slug in public.posts._data){ %>
-         <h2><a href="/posts/<%= slug %>"><%= public.posts._data[slug].title %> by <%= public.posts._data[slug].author %> </a></h2>
+         <h2><a href="/jmnr-blog/posts/<%= slug %>"><%= public.posts._data[slug].title %> by <%= public.posts._data[slug].author %> </a></h2>
          <% }; %>
 
        </section>
