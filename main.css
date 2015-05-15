@@ -1,6 +1,6 @@
-*{
+/***{
   border: 1px dashed black;
-}
+}**/
 
 html, body {
   border: 0px;
@@ -21,9 +21,21 @@ html, body {
 }
 
 #team-photo {
-  background-image: url('https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/85/10353428_611626038934550_3427763539599571947_o.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/u/297682547/code-wallpaper-2.jpg');
   background-size: cover;
-  height: 600px;
+  height: 350px;
+  width: 100%;
+  border: none;
+  background-attachment: fixed;
+
+  /* center it */
+  background-position: center center;
+}
+
+#general-photo {
+  background-image: url('http://i.ytimg.com/vi/W7uQbjVW8tE/maxresdefault.jpg');
+  background-size: cover;
+  height: 350px;
   width: 100%;
   border: none;
   background-attachment: fixed;
@@ -78,7 +90,7 @@ html, body {
 }
 
 #blog {
-  background-color: grey;
+  background-color: #9CB071;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -97,7 +109,7 @@ html, body {
   padding-right: 10px;
   padding-left: 10px;
   max-width: 400px;
-  text-align: center;
+  vertical-align: top;
 }
 
 .social-icon {
@@ -153,7 +165,7 @@ a:active {
   }
 
   #team-photo {
-    background-image: url('https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/background_image/85/10353428_611626038934550_3427763539599571947_o.jpg');
+    background-image: url('https://dl.dropboxusercontent.com/u/297682547/code-wallpaper-2.jpg');
     background-size: cover;
     height: 300px;
     width: 100%;
