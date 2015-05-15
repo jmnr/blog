@@ -1,26 +1,22 @@
 {
-  "post1": {
+  "jp-01": {
     "layout": "_layoutblog.ejs",
-    "title": "India",
+    "title": "Information Onslaught",
     "author": "Josh"
   },
-  "post2": {
+  "mg-01": {
     "layout": "_layoutblog.ejs",
-    "title": "Australia",
+    "title": "Losing Touch with the Space-time Continuum",
     "author": "Michelle"
   },
-  "post3": {
+  "nr-01": {
     "layout": "_layoutblog.ejs",
-    "title": "India",
+    "title": "Taking the Plunge",
     "author": "Nikki"
   },
-  "post4": {
+  "rmc.01": {
     "layout": "_layoutblog.ejs",
-    "title": "Ireland",
+    "title": "Arbitrary Cheerful Title",
     "author": "Ronan"
-  },
-  "test": {
-    "layout": "_layoutblog.ejs",
-    "title": "test"
   }
 }
