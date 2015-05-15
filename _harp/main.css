@@ -155,6 +155,11 @@ html, body {
   vertical-align: top;
 }
 
+.blog-article img:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
 #read-all {
   font-size: 150%;
 }
